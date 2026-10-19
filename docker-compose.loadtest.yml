@@ -41,8 +41,6 @@
 #     to disable TLS certificate requirements against local containerized Postgres.
 #   • k6 runner service      — bundled Grafana k6 image with ./k6 mounted at /work.
 
-version: "3.9"
-
 services:
   postgres:
     image: postgres:16-alpine
